@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WaveD</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="icon" href="./img/logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="box">
+      <header class="header" id="header">
+        <nav class="nav container">
+          <a href="#" class="nav-logo">
+            <img src="./img/logo.png" alt="logo" />
+            Sushi
+          </a>
+          <div class="nav-menu" id="nav-menu">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#home" class="nav_link"> Home </a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav_link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#popular" class="nav_link">Popular</a>
+              </li>
+              <li class="nav-item">
+                <a href="#recently" class="nav_link">Recently</a>
+              </li>
+            </ul>
+
+            <!-- Close btn -->
+            <div class="nav-close" id="nav-close">
+              <i class="fa-solid fa-circle-xmark"></i>
+            </div>
+            <img src="./img/leaf-branch-4.png" alt="img" class="nav-img1" />
+            <img src="./img/leaf-branch-3.png" alt="img" class="nav-img2" />
+          </div>
+
+          <div class="nav-btns">
+            <!-- Theme change btn -->
+            <i class="fa-solid fa-circle-half-stroke" id="theme-btn"></i>
+
+            <!-- Toggle btn -->
+            <div class="nav-toggle" id="nav-toggle">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <main class="main">
+        <section class="home section" id="home">
+          <div class="home-container container gird">
+            <img src="./img/home-sushi-rolls.png" alt="img" />
+
+            <div class="home-data">
+              <h1 class="home-title">
+                Enjoy Delicious
+                <div>
+                  <img src="./img/home-sushi-title.png" alt="img" />
+                  Sushi Food
+                </div>
+              </h1>
+
+              <p class="home-description">
+                Enjoy a good dinner with the best dishes in the restaurant and
+                improve your day
+              </p>
+
+              <a href="#" class="btn">
+                Order now
+                <i class="fa-solid fa-right-long"></i>
+              </a>
+            </div>
+          </div>
+
+          <img src="./img/leaf-branch-2.png" alt="img" class="home-leaf1" />
+          <img src="./img/leaf-branch-4.png" alt="img" class="home-leaf2" />
+        </section>
+
+        <!-- About -->
+        <section class="about section" id="about">
+          <div class="about-container container grid">
+            <div class="about-data">
+              <span class="section-subtitle">About Us</span>
+              <h2 class="section-title about-title">
+                <div>
+                  We Provide
+                  <img
+                    src="./img/about-sushi-title.png"
+                    alt="img"
+                    class="about-img" />
+                </div>
+                Healthy Food
+              </h2>
+              <p class="about-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda doloribus optio praesentium nostrum eius explicabo
+                quasi itaque voluptate impedit sapiente corrupti, excepturi
+                expedita earum. Et sapiente odio voluptas. Soluta, assumenda.
+              </p>
+            </div>
+
+            <img src="./img/about-sushi.png" alt="img" class="about-img" />
+          </div>
+
+          <img src="img/leaf-branch-1.png" alt="img" class="about-leaf1" />
+          <img src="img/leaf-branch-2.png" alt="img" class="about-leaf2" />
+        </section>
+
+        <!-- Popular -->
+        <section class="popular section" id="popular">
+          <span class="section-subtitle"> The Best Food </span>
+          <h2 class="section-title">Popular dishes</h2>
+
+          <div class="popular-container container gird">
+            <article class="popular-cart">
+              <img
+                src="img/popular-onigiri.png"
+                alt="img"
+                class="popular-img" />
+              <h3 class="popular-name">Onigiri</h3>
+              <span class="popular-description">Japanese Dish</span>
+
+              <span class="popular-price">$100.99</span>
+              <button class="popular-btn">
+                <i class="fa-solid fa-cart-plus"></i>
+              </button>
+            </article>
+
+            <article class="popular-cart">
+              <img
+                src="img/popular-sushi-rolls.png"
+                alt="img"
+                class="popular-img" />
+              <h3 class="popular-name">Rolls</h3>
+              <span class="popular-description">Japanese Dish</span>
+
+              <span class="popular-price">$99.99</span>
+              <button class="popular-btn">
+                <i class="fa-solid fa-cart-plus"></i>
+              </button>
+            </article>
+            <article class="popular-cart">
+              <img
+                src="img/popular-spring-rols.png"
+                alt="img"
+                class="popular-img" />
+              <h3 class="popular-name">Spring Rolls</h3>
+              <span class="popular-description">Japanese Dish</span>
+
+              <span class="popular-price">$80.99</span>
+              <button class="popular-btn">
+                <i class="fa-solid fa-cart-plus"></i>
+              </button>
+            </article>
+          </div>
+        </section>
+
+        <!-- RECENTLY -->
+        <section class="recently section" id="recently">
+          <div class="recently-container container gird">
+            <div class="recently-data">
+              <span class="section-subtitle"> Recently Added </span>
+              <h2 class="section-title">
+                Sushi Samurai <br />
+                Salat Cheese
+              </h2>
+
+              <p class="recently-des">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Quisquam ex vitae odit molestiae fuga.
+              </p>
+
+              <a href="#" class="btn">
+                Order Now <i class="fa-solid fa-arrow-right"></i>
+              </a>
+
+              <img
+                src="img/spinach-leaf.png"
+                alt="img "
+                class="recently-data_img" />
+            </div>
+
+            <img
+              src="./img/recently-salmon-sushi.png"
+              alt="img"
+              class="recently-img" />
+          </div>
+          <img src="img/leaf-branch-2.png" alt="img" class="recently-leaf1" />
+          <img src="img/leaf-branch-3.png" alt="img" class="recently-leaf2" />
+        </section>
+
+        <!-- NEWSLETTER -->
+        <section class="newsletter section">
+          <div class="newsletter-container container">
+            <div class="newsletter-content grid">
+              <img
+                src="./img/newsletter-sushi.png"
+                alt="img"
+                class="newsletter-img" />
+              <div class="newsletter-data">
+                <span class="section-subtitle">newsletter</span>
+                <h2 class="section-title">
+                  Subscribe For <br />
+                  Updates
+                </h2>
+
+                <form action="" class="newsletter-form">
+                  <input
+                    type="email"
+                    placeholder="Enter email"
+                    class="newsletter-input" />
+
+                  <button class="btn newsletter-btn">
+                    Subscribe <i class="fa-solid fa-paper-plane"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+            <img
+              src="./img/spinach-leaf.png"
+              alt="img"
+              class="newsletter-leaf" />
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer-container container gird">
+          <div>
+            <a href="#" class="footer-logo">
+              <img src="./img/logo.png" alt="img" />Sushi
+            </a>
+
+            <p class="footer-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic
+              tempora nihil itaque aliquid, laborum cumque pariatur dolor
+              tenetur.
+            </p>
+          </div>
+
+          <div class="footer-content">
+            <div>
+              <h3 class="footer-title">Main Menu</h3>
+              <ul class="footer-links">
+                <li>
+                  <a href="#" class="footer-link">About</a>
+                </li>
+                <li>
+                  <a href="#" class="footer-link">Menus</a>
+                </li>
+                <li>
+                  <a href="#" class="footer-link">Offer</a>
+                </li>
+                <li>
+                  <a href="#" class="footer-link">Events</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="footer-title">Information</h3>
+              <ul class="footer-links">
+                <li>
+                  <a href="#" class="footer-link"> Contact </a>
+                </li>
+                <li>
+                  <a href="#" class="footer-link"> Oder & Returns </a>
+                </li>
+                <li>
+                  <a href="#" class="footer-link">Videos</a>
+                </li>
+                <li>
+                  <a href="#" class="footer-link">Reservation</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="footer-title">Address</h3>
+              <ul class="footer-links">
+                <li class="footer-information">
+                  <a href="#" class="footer-link">Do Luong - Nghe An</a>
+                </li>
+                <li class="footer-information">
+                  <a href="#" class="footer-link">Do Luong - Nghe An</a>
+                </li>
+                <li>
+                  <a href="#" class="footer-link">9AM-11PM</a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="footer-title">Social Media</h3>
+
+              <ul class="footer-social">
+                <a href="#" target="_black" class="footer-social_link">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" target="_black" class="footer-social_link">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" target="_black" class="footer-social_link">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </ul>
+            </div>
+          </div>
+          <img src="img/spring-onion.png" alt="img" class="footer-onion" />
+          <img src="img/spinach-leaf.png" alt="img" class="footer-spinach" />
+          <img src="img/leaf-branch-4.png" alt="img" class="footer-leaf" />
+        </div>
+
+        <div class="footer-info container">
+          <div class="footer-card">
+            <img src="img/footer-card-1.png" alt="img" />
+            <img src="img/footer-card-2.png" alt="img" />
+            <img src="img/footer-card-3.png" alt="img" />
+            <img src="img/footer-card-4.png" alt="img" />
+          </div>
+
+          <span class="footer-copy"> &#169; Copyright WaveD </span>
+        </div>
+      </footer>
+
+      <!-- SCROLL UP -->
+      <a href="#" class="scroll-up" id="scroll-up">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
